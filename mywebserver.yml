@@ -11,6 +11,11 @@
        name: apache2
        state: started
 
+  - name: i want to create a file
+    file:
+      path: /home/ubuntu/mytestfile
+      state: touch
+
        
 
 
